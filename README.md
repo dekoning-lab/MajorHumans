@@ -6,7 +6,7 @@ de Koning Lab, University of Calgary <BR>
 and Bachelor of Health Sciences Bioinformatics Program  <BR>
 http://lab.jasondk.io  <BR>
 
-Prior to publication please cite: **Hall J and APJ de Koning (2015). MajorHumans: Major-allele reference genomes and exomes for Homo sapiens. University of Calgary. http://lab.jasondk.io**
+Prior to publication please cite: *Hall J and APJ de Koning (2015). MajorHumans: Major-allele reference genomes and exomes for Homo sapiens. University of Calgary. http://lab.jasondk.io*
 
 ---
 
