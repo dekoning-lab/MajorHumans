@@ -22,7 +22,7 @@ wget https://github.com/dekoning-lab/MajorHumans/releases/download/v0.1/MajorHum
 ---
 ###README.txt
 
-This folder contains the initial v0.1 beta-release of *MajorHumans* haploid reference genome/exome sequences. The data are encoded as VCF files relative to the `hg19` assembly. In these reconstructions, variations such as CNVs are ignored  so that position numbers refer to assembly positions on the `hg19` assembly. This release also contains a script to re-encode an `hg19` VCF relative to one of the new reference sequences. In most cases, this should reduce the file size between 33% and 100%. This script is called `NewRefConverter.pl`
+This folder contains the initial v0.1 beta-release of *MajorHumans* haploid reference genome/exome sequences. The data are encoded as VCF files relative to the `hg19` assembly. In these reconstructions, variations such as CNVs are ignored  so that position numbers refer to assembly positions on the `hg19` assembly. This release also contains a script to re-encode an `hg19` VCF relative to one of the new reference sequences. In most cases, this should reduce the file size between 33% and 50%. This script is called `NewRefConverter.pl`
 
    Usage: `perl NewRefConverter.pl <newRef>.vcf <vcfToConvert>.vcf`
 
