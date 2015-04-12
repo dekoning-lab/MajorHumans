@@ -29,7 +29,7 @@ We include reconstructed major allele reference genomes based on several data so
 
 ####Resource naming
 
-The 1000 Genomes references are named `1000GPOPMajorAllele.vcf`, where POP is the 1000 Genomes population that the reference is for. The 6500 exomes references are named `6500EPOPMajorAllele.vcf` where POP is the 6500 exomes population thatthe reference is for. The 65K exomes references are named `65KPOPMajorAllele.vcf` where POP is the 65K exomes population that the reference is for. All of the new references are stored in relation to `hg19`.
+The 1000 Genomes references are named `1000GPOPMajorAllele.vcf`, where POP is the 1000 Genomes population that the reference is for. The 6500 exomes references are named `6500EPOPMajorAllele.vcf` where POP is the 6500 exomes population thatthe reference is for. The 65K exomes references are named `65KPOPMajorAllele.vcf` where POP is the 65K exomes population that the reference is for.
 
 |Population | tag | 1000 genomes data | 65K exomes data|6500 exomes data|
 |---|---|---|---|---|
