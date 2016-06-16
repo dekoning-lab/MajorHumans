@@ -1,12 +1,12 @@
 ##Major-allele reference genomes for *Homo sapiens*
-####John Hall and Jason de Koning
-#####April 2015
+####John Hall, Nathaniel Bryans and Jason de Koning
+#####June 2016
 
 de Koning Lab, University of Calgary <BR>
 and Bachelor of Health Sciences Bioinformatics Program  <BR>
 http://lab.jasondk.io  <BR>
 
-Prior to publication please cite: *Hall JS and APJ de Koning (2015). MajorHumans: Major-allele reference genomes and exomes for Homo sapiens. University of Calgary. http://lab.jasondk.io*
+Prior to publication please cite: *Hall JS, Bryans N and APJ de Koning (2016). MajorHumans: Major-allele reference genomes and exomes for Homo sapiens. University of Calgary. http://lab.jasondk.io*
 
 ---
 
@@ -21,7 +21,7 @@ cd MajorHumans; make
 ---
 ###README
 
-This folder contains the initial v0.1 beta-release of *MajorHumans* haploid reference genome/exome sequences. The data are encoded as VCF files relative to the `hg19` assembly. In these reconstructions, variations such as CNVs are ignored  so that position numbers refer to assembly positions on the `hg19` assembly. This release also contains a script to re-encode an `hg19` VCF relative to one of the new reference sequences. In most cases, this should reduce the file size between 33% and 50%. This script is called `NewRefConverter.pl`
+This folder contains the v0.2 beta-release of *MajorHumans* haploid reference genome/exome sequences. The data are encoded as VCF files relative to the `hg19` assembly. In these reconstructions, variations such as CNVs are ignored  so that position numbers refer to assembly positions on the `hg19` assembly. This release also contains a script to re-encode an `hg19` VCF relative to one of the new reference sequences. In most cases, this should reduce the file size between 33% and 50%. This script is called `NewRefConverter.pl`
 
    Usage: `perl NewRefConverter.pl <newRef>.vcf <vcfToConvert>.vcf`
 
@@ -39,12 +39,13 @@ The 1000 Genomes references are named `1000GPOPMajorAllele.vcf`, where POP is th
 |South Asian|SAS| 1000GSASMajorAllele.vcf| 65KSASMajorAllele.vcf|
 |East Asian|EAS| 1000GEASRMajorAllele.vcf| 65KEASMajorAllele.vcf|
 |Finnish|FIN| | 65KFINMajorAllele.vcf| |
+|ALL| |1000GALLMajorAllele.vcf| | |
 
-####Ancestral Human and Hominin Genomes
-In this release, we also include a preliminary attempt at reconstructing ancestral human and hominin reference genome sequences. These were reconstructed using the [30x Neanderthal and Denisovan genomes](http://www.eva.mpg.de/neandertal/index.html) together with 1000 Genomes data. Reconstructions were made via a pseudo-phylogenetic analysis and maximum likelihood ancestral reconstruction with RaxML. **These should best be considered as 'weighted average' sequences**; they should perform well as reference sequences. They are called `humanAncestral.vcf` and `homininAncestral.vcf` respectively.
+####Ancestral Human Genome
+In this release, we also include a preliminary attempt at reconstructing ancestral human genome sequences. This was reconstructed using the [30x Neanderthal and Denisovan genomes](http://www.eva.mpg.de/neandertal/index.html) to help root the tree together with 1000 Genomes data. Reconstruction was made via a pseudo-phylogenetic analysis and maximum likelihood ancestral reconstruction with RaxML. **This should best be considered as 'weighted average' sequence**; it should perform well as reference sequence. It is called `hg00_humanAncestral.vcf`.
 
 ---
 
-**Note:** Info fields in the reference genome VCF files reflect the *original* data source's annotations and have not been recomputed based on the new reference genome.
+**Note:** Any Info fields in the reference genome VCF files reflect the *original* data source's annotations and have not been recomputed based on the new reference genome.
 
 Please report any errors or suggestions with this initial release to [Jason](mailto:jason.dekoning@ucalgary.ca) or open an [issue](https://github.com/dekoning-lab/MajorHumans/issues/new).
