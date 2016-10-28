@@ -1,4 +1,4 @@
-##Major-allele reference genomes for *Homo sapiens*
+##Major-allele and ancestral reference genomes for *Homo sapiens*
 ####John Hall, Nathaniel Bryans and Jason de Koning
 #####June 2016
 
